@@ -27,3 +27,19 @@ h1 span{
     border: 2px solid #000;
     border-top: 0px;
 }
+
+.press-enter{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+    0%, 100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }    
+}
