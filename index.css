@@ -19,13 +19,19 @@ h1 span{
 .container{
     width: 500px;
     margin: 0 auto;
+    display: grid;
+    gap: 50px;
+    align-items: flex-start;
+    grid-template-areas: 
+    'next game'
+    'score game';
 }
 
 .game-area{
     display: block;
     background-color: #282828;
-    border: 2px solid #000;
-    border-top: 0px;
+    border: solid #000;
+    border-width: 0 2px 3px 2px;
 }
 
 .press-enter{
